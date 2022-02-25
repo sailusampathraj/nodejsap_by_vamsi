@@ -6,9 +6,9 @@ A MochaJS starter package from https://autom8able.com
 ## Installation
 
 ```
-git clone https://github.com/mitchallen/autom8able-mochajs-starter.git
+git clone https://github.com/sailusampathraj/nodejsap_by_vamsi.git
 
-cd autom8able-mochajs-starter/
+cd nodejsap_by_vamsi/
 
 npm install
 

@@ -11,7 +11,8 @@ pipeline{
             }
         } 
    
-        steps {
+        stage('Build') {    
+           steps {
              nodejs(nodeJSInstallationName: 'nodejs17.5.0'){
                     sh 'npm install'
                    // sh 'npm run start'
@@ -20,5 +21,8 @@ pipeline{
                    sh 'npm run sonar' 
                 } 
              } 
-        }
+           }
+       }
+        
+    }
 }

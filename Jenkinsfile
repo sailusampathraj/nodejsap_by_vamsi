@@ -1,9 +1,6 @@
 pipeline{
     agent any
-    environment {
-        NODE_PATH = "/"
-        NODE_LOG_LEVEL = "fatal"
-    }
+   
     stages {
         stage('CleanWorkspace') {
             steps {
